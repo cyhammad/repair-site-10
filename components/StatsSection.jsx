@@ -25,7 +25,7 @@ const StatsSection = () => {
     },
   ];
   return (
-    <div className="flex flex-col w-full pl-20 pr-5 gap-4 py-10">
+    <div className="grid sm:grid-cols-2 lg:grid-cols-4 max-w-7xl self-center gap-x-20 w-full pl-20 pr-5 gap-4 py-10">
       {stats.map((stat, index) => (
         <div
           key={stat.subtitle + index}

@@ -2,6 +2,7 @@ import { Roboto } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header/Header";
 import Footer from "@/components/Footer";
+import FixedCallButtons from "@/components/FixedCallButtons";
 
 const roboto = Roboto({
   variable: "--font-roboto",
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
         <Header />
         {children}
         <Footer />
+        <FixedCallButtons />
       </body>
     </html>
   );

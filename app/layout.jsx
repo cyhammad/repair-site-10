@@ -11,8 +11,8 @@ const roboto = Roboto({
 });
 
 export const metadata = {
-  title: "Appliance Repair UAE",
-  description: "Appliance Repair UAE",
+  title: "Gulf Repair Center",
+  description: "Gulf Repair Center",
 };
 
 export default function RootLayout({ children }) {

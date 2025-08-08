@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const CallButtons = ({ onlyCall = false }) => {
   const whatsappMessage = encodeURIComponent(
-    "Hey, I want to inquire about your appliance repair services. Can you please provide me with more information about your rates and availability?"
+    "Hey, I want home appliances repair services"
   );
   const whatsappUrl = `https://wa.me/${company.number.replace(
     /\s/g,
